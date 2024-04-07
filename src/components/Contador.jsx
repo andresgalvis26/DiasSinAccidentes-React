@@ -64,16 +64,16 @@ const Contador = () => {
 
             <img src={teamWork} className="App-logo h-[50vmin] m-12" alt='teamwork'></img>
 
-            <h1 className='italic text-5xl m-14 font-bold'>Contador: {contador} días sin accidentes.</h1>
+            <h1 className='italic text-5xl m-12 font-bold'>Contador: {contador} días sin accidentes.</h1>
 
             <div className='grid grid-cols-3 gap-10 p-10'>
-                <button className="bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 text-white font-bold py-3 rounded-full shadow-xl" onClick={decrementarContador}>
+                <button className="bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 text-white font-bold py-5 rounded-full shadow-xl" onClick={decrementarContador}>
                     Disminuir
                 </button>
-                <button className="bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 text-white font-bold py-3 px-6 rounded-full shadow-xl" onClick={resetearContador}>
+                <button className="bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 text-white font-bold py-5 rounded-full shadow-xl" onClick={resetearContador}>
                     Reinicio
                 </button>
-                <button className="bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 text-white font-bold py-3 px-6 rounded-full shadow-xl" onClick={incrementarContador}>
+                <button className="bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 text-white font-bold py-5 rounded-full shadow-xl" onClick={incrementarContador}>
                     Aumentar
                 </button>
             </div>
